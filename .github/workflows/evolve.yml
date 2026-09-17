@@ -1,33 +1,66 @@
-name: evolve-and-validate
+name: Nightly Evolution Run
 
 on:
   schedule:
-    - cron: "0 3 * * *"   # nightly at 03:00 UTC — adjust to taste
-  workflow_dispatch: {}     # allows manual trigger from the Actions tab
+    # 02:00 UTC nightly — adjust to taste
+    - cron: '0 2 * * *'
+  workflow_dispatch:
+    inputs:
+      generations:
+        description: 'Generations override'
+        required: false
+        default: '10'
+      population:
+        description: 'Population override'
+        required: false
+        default: '20'
 
 jobs:
-  run-pipeline:
+  run-evolution:
     runs-on: ubuntu-latest
-    timeout-minutes: 300   # GitHub free tier: 2000 min/month on public repos,
-                            # much less on private — tune generations/population
-                            # to fit your remaining minutes
+    timeout-minutes: 60
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout repo
+        uses: actions/checkout@v4
 
-      - uses: actions/setup-python@v5
+      - name: Set up Python
+        uses: actions/setup-python@v5
         with:
-          python-version: "3.11"
+          python-version: '3.11'
 
       - name: Install dependencies
         run: pip install -r requirements.txt
 
-      - name: Run evolution + validation pipeline
-        run: python -m src.pipeline --generations 40 --population 60
+      - name: Cache cleaned dataset
+        id: cache-data
+        uses: actions/cache@v4
+        with:
+          path: data/clean/xauusd_m1.parquet
+          key: xauusd-parquet-data-v1
 
-      - name: Commit results back to repo
+      - name: Download cleaned dataset (cache miss)
+        if: steps.cache-data.outputs.cache-hit != 'true'
         run: |
-          git config user.name "evo-bot"
-          git config user.email "evo-bot@users.noreply.github.com"
+          mkdir -p data/clean
+          curl -L -o data/clean/xauusd_m1.parquet \
+            https://github.com/mmr055/learningbacktesting/releases/download/data-v1/xauusd_m1.parquet
+
+      - name: Derive seed from date
+        id: seed
+        run: echo "seed=$(date +%Y%m%d)" >> "$GITHUB_OUTPUT"
+
+      - name: Run pipeline
+        run: |
+          python -m src.pipeline \
+            --generations "${{ github.event.inputs.generations || '10' }}" \
+            --population "${{ github.event.inputs.population || '20' }}" \
+            --insample-days 180 \
+            --seed "${{ steps.seed.outputs.seed }}"
+
+      - name: Commit results
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
           git add results/
-          git diff --staged --quiet || git commit -m "Automated run: $(date -u +%Y-%m-%dT%H:%M:%SZ)"
+          git diff --quiet --cached || git commit -m "Nightly run: seed ${{ steps.seed.outputs.seed }}"
           git push
