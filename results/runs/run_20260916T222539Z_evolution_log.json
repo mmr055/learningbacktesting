@@ -1,0 +1,332 @@
+[
+  {
+    "generation": 0,
+    "best_fitness": 0.0,
+    "avg_fitness": 0.0,
+    "best_genome": {
+      "direction": "long",
+      "entry_block": "opening_range",
+      "entry_params": {
+        "session_start_hour": 9,
+        "duration_min": 30
+      },
+      "use_volume_filter": false,
+      "volume_params": {
+        "window": 20,
+        "z_threshold": 1.89
+      },
+      "use_mtf_filter": true,
+      "mtf_params": {
+        "htf": "1D",
+        "mode": "trend_bias",
+        "width": 3
+      },
+      "stop_atr_mult": 0.78,
+      "tp_r_multiple": 1.22,
+      "risk_pct": 0.9,
+      "max_bars_in_trade": 50
+    },
+    "best_report": {
+      "fitness": 0.0,
+      "reason": "error: only integers, slices (`:`), ellipsis (`...`), numpy.newaxis (`None`) and integer or boolean arrays are valid indices",
+      "n_trades": 0
+    }
+  },
+  {
+    "generation": 1,
+    "best_fitness": 0.0,
+    "avg_fitness": 0.0,
+    "best_genome": {
+      "direction": "long",
+      "entry_block": "opening_range",
+      "entry_params": {
+        "session_start_hour": 9,
+        "duration_min": 30
+      },
+      "use_volume_filter": false,
+      "volume_params": {
+        "window": 20,
+        "z_threshold": 1.89
+      },
+      "use_mtf_filter": true,
+      "mtf_params": {
+        "htf": "1D",
+        "mode": "trend_bias",
+        "width": 3
+      },
+      "stop_atr_mult": 0.78,
+      "tp_r_multiple": 1.22,
+      "risk_pct": 0.9,
+      "max_bars_in_trade": 50
+    },
+    "best_report": {
+      "fitness": 0.0,
+      "reason": "error: only integers, slices (`:`), ellipsis (`...`), numpy.newaxis (`None`) and integer or boolean arrays are valid indices",
+      "n_trades": 0
+    }
+  },
+  {
+    "generation": 2,
+    "best_fitness": 0.0,
+    "avg_fitness": 0.0,
+    "best_genome": {
+      "direction": "long",
+      "entry_block": "opening_range",
+      "entry_params": {
+        "session_start_hour": 9,
+        "duration_min": 30
+      },
+      "use_volume_filter": false,
+      "volume_params": {
+        "window": 20,
+        "z_threshold": 1.89
+      },
+      "use_mtf_filter": true,
+      "mtf_params": {
+        "htf": "1D",
+        "mode": "trend_bias",
+        "width": 3
+      },
+      "stop_atr_mult": 0.78,
+      "tp_r_multiple": 1.22,
+      "risk_pct": 0.9,
+      "max_bars_in_trade": 50
+    },
+    "best_report": {
+      "fitness": 0.0,
+      "reason": "error: only integers, slices (`:`), ellipsis (`...`), numpy.newaxis (`None`) and integer or boolean arrays are valid indices",
+      "n_trades": 0
+    }
+  },
+  {
+    "generation": 3,
+    "best_fitness": 0.0,
+    "avg_fitness": 0.0,
+    "best_genome": {
+      "direction": "long",
+      "entry_block": "opening_range",
+      "entry_params": {
+        "session_start_hour": 9,
+        "duration_min": 30
+      },
+      "use_volume_filter": false,
+      "volume_params": {
+        "window": 20,
+        "z_threshold": 1.89
+      },
+      "use_mtf_filter": true,
+      "mtf_params": {
+        "htf": "1D",
+        "mode": "trend_bias",
+        "width": 3
+      },
+      "stop_atr_mult": 0.78,
+      "tp_r_multiple": 1.22,
+      "risk_pct": 0.9,
+      "max_bars_in_trade": 50
+    },
+    "best_report": {
+      "fitness": 0.0,
+      "reason": "error: only integers, slices (`:`), ellipsis (`...`), numpy.newaxis (`None`) and integer or boolean arrays are valid indices",
+      "n_trades": 0
+    }
+  },
+  {
+    "generation": 4,
+    "best_fitness": 0.0,
+    "avg_fitness": 0.0,
+    "best_genome": {
+      "direction": "long",
+      "entry_block": "opening_range",
+      "entry_params": {
+        "session_start_hour": 9,
+        "duration_min": 30
+      },
+      "use_volume_filter": false,
+      "volume_params": {
+        "window": 20,
+        "z_threshold": 1.89
+      },
+      "use_mtf_filter": true,
+      "mtf_params": {
+        "htf": "1D",
+        "mode": "trend_bias",
+        "width": 3
+      },
+      "stop_atr_mult": 0.78,
+      "tp_r_multiple": 1.22,
+      "risk_pct": 0.9,
+      "max_bars_in_trade": 50
+    },
+    "best_report": {
+      "fitness": 0.0,
+      "reason": "error: only integers, slices (`:`), ellipsis (`...`), numpy.newaxis (`None`) and integer or boolean arrays are valid indices",
+      "n_trades": 0
+    }
+  },
+  {
+    "generation": 5,
+    "best_fitness": 0.0,
+    "avg_fitness": 0.0,
+    "best_genome": {
+      "direction": "long",
+      "entry_block": "opening_range",
+      "entry_params": {
+        "session_start_hour": 9,
+        "duration_min": 30
+      },
+      "use_volume_filter": false,
+      "volume_params": {
+        "window": 20,
+        "z_threshold": 1.89
+      },
+      "use_mtf_filter": true,
+      "mtf_params": {
+        "htf": "1D",
+        "mode": "trend_bias",
+        "width": 3
+      },
+      "stop_atr_mult": 0.78,
+      "tp_r_multiple": 1.22,
+      "risk_pct": 0.9,
+      "max_bars_in_trade": 50
+    },
+    "best_report": {
+      "fitness": 0.0,
+      "reason": "error: only integers, slices (`:`), ellipsis (`...`), numpy.newaxis (`None`) and integer or boolean arrays are valid indices",
+      "n_trades": 0
+    }
+  },
+  {
+    "generation": 6,
+    "best_fitness": 0.0,
+    "avg_fitness": 0.0,
+    "best_genome": {
+      "direction": "long",
+      "entry_block": "opening_range",
+      "entry_params": {
+        "session_start_hour": 9,
+        "duration_min": 30
+      },
+      "use_volume_filter": false,
+      "volume_params": {
+        "window": 20,
+        "z_threshold": 1.89
+      },
+      "use_mtf_filter": true,
+      "mtf_params": {
+        "htf": "1D",
+        "mode": "trend_bias",
+        "width": 3
+      },
+      "stop_atr_mult": 0.78,
+      "tp_r_multiple": 1.22,
+      "risk_pct": 0.9,
+      "max_bars_in_trade": 50
+    },
+    "best_report": {
+      "fitness": 0.0,
+      "reason": "error: only integers, slices (`:`), ellipsis (`...`), numpy.newaxis (`None`) and integer or boolean arrays are valid indices",
+      "n_trades": 0
+    }
+  },
+  {
+    "generation": 7,
+    "best_fitness": 0.0,
+    "avg_fitness": 0.0,
+    "best_genome": {
+      "direction": "long",
+      "entry_block": "opening_range",
+      "entry_params": {
+        "session_start_hour": 9,
+        "duration_min": 30
+      },
+      "use_volume_filter": false,
+      "volume_params": {
+        "window": 20,
+        "z_threshold": 1.89
+      },
+      "use_mtf_filter": true,
+      "mtf_params": {
+        "htf": "1D",
+        "mode": "trend_bias",
+        "width": 3
+      },
+      "stop_atr_mult": 0.78,
+      "tp_r_multiple": 1.22,
+      "risk_pct": 0.9,
+      "max_bars_in_trade": 50
+    },
+    "best_report": {
+      "fitness": 0.0,
+      "reason": "error: only integers, slices (`:`), ellipsis (`...`), numpy.newaxis (`None`) and integer or boolean arrays are valid indices",
+      "n_trades": 0
+    }
+  },
+  {
+    "generation": 8,
+    "best_fitness": 0.0,
+    "avg_fitness": 0.0,
+    "best_genome": {
+      "direction": "long",
+      "entry_block": "opening_range",
+      "entry_params": {
+        "session_start_hour": 9,
+        "duration_min": 30
+      },
+      "use_volume_filter": false,
+      "volume_params": {
+        "window": 20,
+        "z_threshold": 1.89
+      },
+      "use_mtf_filter": true,
+      "mtf_params": {
+        "htf": "1D",
+        "mode": "trend_bias",
+        "width": 3
+      },
+      "stop_atr_mult": 0.78,
+      "tp_r_multiple": 1.22,
+      "risk_pct": 0.9,
+      "max_bars_in_trade": 50
+    },
+    "best_report": {
+      "fitness": 0.0,
+      "reason": "error: only integers, slices (`:`), ellipsis (`...`), numpy.newaxis (`None`) and integer or boolean arrays are valid indices",
+      "n_trades": 0
+    }
+  },
+  {
+    "generation": 9,
+    "best_fitness": 0.0,
+    "avg_fitness": 0.0,
+    "best_genome": {
+      "direction": "long",
+      "entry_block": "opening_range",
+      "entry_params": {
+        "session_start_hour": 9,
+        "duration_min": 30
+      },
+      "use_volume_filter": false,
+      "volume_params": {
+        "window": 20,
+        "z_threshold": 1.89
+      },
+      "use_mtf_filter": true,
+      "mtf_params": {
+        "htf": "1D",
+        "mode": "trend_bias",
+        "width": 3
+      },
+      "stop_atr_mult": 0.78,
+      "tp_r_multiple": 1.22,
+      "risk_pct": 0.9,
+      "max_bars_in_trade": 50
+    },
+    "best_report": {
+      "fitness": 0.0,
+      "reason": "error: only integers, slices (`:`), ellipsis (`...`), numpy.newaxis (`None`) and integer or boolean arrays are valid indices",
+      "n_trades": 0
+    }
+  }
+]

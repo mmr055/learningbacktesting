@@ -1,0 +1,32 @@
+{
+  "genome": {
+    "direction": "long",
+    "entry_block": "opening_range",
+    "entry_params": {
+      "session_start_hour": 9,
+      "duration_min": 30
+    },
+    "use_volume_filter": true,
+    "volume_params": {
+      "window": 50,
+      "z_threshold": 1.71
+    },
+    "use_mtf_filter": true,
+    "mtf_params": {
+      "htf": "1h",
+      "mode": "trend_bias",
+      "width": 2
+    },
+    "stop_atr_mult": 1.5,
+    "tp_r_multiple": 1.18,
+    "risk_pct": 1.62,
+    "max_bars_in_trade": 100
+  },
+  "insample_fitness": {
+    "fitness": 0.407080279662838,
+    "profit_factor": 1.69027027027027,
+    "win_rate_stability": 0.9031402111163859,
+    "complexity_penalty": 0.2,
+    "n_trades": 90
+  }
+}

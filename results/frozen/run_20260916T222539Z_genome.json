@@ -1,0 +1,30 @@
+{
+  "genome": {
+    "direction": "long",
+    "entry_block": "opening_range",
+    "entry_params": {
+      "session_start_hour": 9,
+      "duration_min": 30
+    },
+    "use_volume_filter": false,
+    "volume_params": {
+      "window": 20,
+      "z_threshold": 1.89
+    },
+    "use_mtf_filter": true,
+    "mtf_params": {
+      "htf": "1D",
+      "mode": "trend_bias",
+      "width": 3
+    },
+    "stop_atr_mult": 0.78,
+    "tp_r_multiple": 1.22,
+    "risk_pct": 0.9,
+    "max_bars_in_trade": 50
+  },
+  "insample_fitness": {
+    "fitness": 0.0,
+    "reason": "error: only integers, slices (`:`), ellipsis (`...`), numpy.newaxis (`None`) and integer or boolean arrays are valid indices",
+    "n_trades": 0
+  }
+}

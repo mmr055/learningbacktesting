@@ -1,0 +1,37 @@
+# =============================================================
+# XAUUSD Evolutionary Strategy — repo hygiene + run reference
+# =============================================================
+#
+# HOW TO RUN:
+#   source .venv/bin/activate
+#
+#   Small/fast sanity run:
+#     python -m src.pipeline --generations 10 --population 20 --insample-days 180
+#
+#   Scaled run (background, survives terminal close):
+#     nohup python -m src.pipeline --generations 40 --population 60 \
+#       --insample-days 180 > run_scaled.log 2>&1 &
+#
+#   Check progress:
+#     ps -p <PID> -o pid,etime,%cpu,%mem,cmd
+#     free -h
+#     tail -80 run_scaled.log
+#   (note: stdout is fully buffered when redirected to a file —
+#    an empty log does NOT mean the process is stuck; check `ps` State/CPU%)
+
+# --- Python / venv ---
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# --- Data (large, gitignored per project convention) ---
+data/data/
+data/clean/*.parquet
+
+# --- Run artifacts / logs ---
+*.log
+nohup.out
+
+# --- OS junk ---
+.DS_Store
