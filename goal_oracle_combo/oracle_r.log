@@ -1,0 +1,105 @@
+nohup: ignoring input
+
+===== 2005-2020 30m rr1.5 | label=volband | removed days 40.0%
+share of trades removed: 28.1% (total=1215)
+-- round-trip cost 0.00 USD/oz
+all trades           n= 1215 PF=1.039 avgR=+0.0231 netR=+28.0
+kept                 n=  874 PF=0.869 avgR=-0.0827 netR=-72.3
+removed              n=  341 PF=1.625 avgR=+0.2941 netR=+100.3
+random removal: avgR mean +0.0227 p95 +0.0584 | share of random >= oracle: 1.000
+-- round-trip cost 0.30 USD/oz
+all trades           n= 1215 PF=0.953 avgR=-0.0288 netR=-35.0
+kept                 n=  874 PF=0.793 avgR=-0.1374 netR=-120.0
+removed              n=  341 PF=1.510 avgR=+0.2494 netR=+85.0
+random removal: avgR mean -0.0278 p95 +0.0076 | share of random >= oracle: 1.000
+
+===== 2021-2026 30m rr1.5 | label=volband | removed days 40.0%
+share of trades removed: 42.2% (total=405)
+-- round-trip cost 0.00 USD/oz
+all trades           n=  405 PF=1.062 avgR=+0.0360 netR=+14.6
+kept                 n=  234 PF=1.046 avgR=+0.0266 netR=+6.2
+removed              n=  171 PF=1.084 avgR=+0.0488 netR=+8.4
+random removal: avgR mean +0.0358 p95 +0.1332 | share of random >= oracle: 0.548
+-- round-trip cost 0.30 USD/oz
+all trades           n=  405 PF=1.020 avgR=+0.0119 netR=+4.8
+kept                 n=  234 PF=1.004 avgR=+0.0026 netR=+0.6
+removed              n=  171 PF=1.041 avgR=+0.0246 netR=+4.2
+random removal: avgR mean +0.0119 p95 +0.1026 | share of random >= oracle: 0.542
+
+===== 2005-2020 15m rr1.5 | label=volband | removed days 40.0%
+share of trades removed: 26.0% (total=2285)
+-- round-trip cost 0.00 USD/oz
+all trades           n= 2285 PF=1.031 avgR=+0.0183 netR=+41.7
+kept                 n= 1691 PF=0.946 avgR=-0.0333 netR=-56.2
+removed              n=  594 PF=1.312 avgR=+0.1649 netR=+97.9
+random removal: avgR mean +0.0186 p95 +0.0430 | share of random >= oracle: 1.000
+-- round-trip cost 0.30 USD/oz
+all trades           n= 2285 PF=0.918 avgR=-0.0518 netR=-118.3
+kept                 n= 1691 PF=0.833 avgR=-0.1099 netR=-185.8
+removed              n=  594 PF=1.204 avgR=+0.1137 netR=+67.5
+random removal: avgR mean -0.0510 p95 -0.0254 | share of random >= oracle: 1.000
+
+===== 2021-2026 15m rr1.5 | label=volband | removed days 40.0%
+share of trades removed: 37.8% (total=756)
+-- round-trip cost 0.00 USD/oz
+all trades           n=  756 PF=1.114 avgR=+0.0647 netR=+48.9
+kept                 n=  470 PF=1.112 avgR=+0.0636 netR=+29.9
+removed              n=  286 PF=1.117 avgR=+0.0666 netR=+19.1
+random removal: avgR mean +0.0660 p95 +0.1283 | share of random >= oracle: 0.520
+-- round-trip cost 0.30 USD/oz
+all trades           n=  756 PF=1.047 avgR=+0.0275 netR=+20.8
+kept                 n=  470 PF=1.043 avgR=+0.0254 netR=+12.0
+removed              n=  286 PF=1.052 avgR=+0.0310 netR=+8.9
+random removal: avgR mean +0.0269 p95 +0.0845 | share of random >= oracle: 0.524
+
+===== 2005-2020 30m rr1.5 | label=trendagree | removed days 58.0%
+share of trades removed: 29.4% (total=1215)
+-- round-trip cost 0.00 USD/oz
+all trades           n= 1215 PF=1.039 avgR=+0.0231 netR=+28.0
+kept                 n=  858 PF=1.607 avgR=+0.2895 netR=+248.4
+removed              n=  357 PF=0.270 avgR=-0.6172 netR=-220.4
+random removal: avgR mean +0.0242 p95 +0.0636 | share of random >= oracle: 0.000
+-- round-trip cost 0.30 USD/oz
+all trades           n= 1215 PF=0.953 avgR=-0.0288 netR=-35.0
+kept                 n=  858 PF=1.477 avgR=+0.2387 netR=+204.8
+removed              n=  357 PF=0.246 avgR=-0.6717 netR=-239.8
+random removal: avgR mean -0.0286 p95 +0.0076 | share of random >= oracle: 0.000
+
+===== 2021-2026 30m rr1.5 | label=trendagree | removed days 49.2%
+share of trades removed: 25.4% (total=405)
+-- round-trip cost 0.00 USD/oz
+all trades           n=  405 PF=1.062 avgR=+0.0360 netR=+14.6
+kept                 n=  302 PF=1.622 avgR=+0.2940 netR=+88.8
+removed              n=  103 PF=0.195 avgR=-0.7206 netR=-74.2
+random removal: avgR mean +0.0335 p95 +0.0921 | share of random >= oracle: 0.000
+-- round-trip cost 0.30 USD/oz
+all trades           n=  405 PF=1.020 avgR=+0.0119 netR=+4.8
+kept                 n=  302 PF=1.560 avgR=+0.2710 netR=+81.8
+removed              n=  103 PF=0.187 avgR=-0.7478 netR=-77.0
+random removal: avgR mean +0.0099 p95 +0.0655 | share of random >= oracle: 0.000
+
+===== 2005-2020 15m rr1.5 | label=trendagree | removed days 58.0%
+share of trades removed: 36.4% (total=2285)
+-- round-trip cost 0.00 USD/oz
+all trades           n= 2285 PF=1.031 avgR=+0.0183 netR=+41.7
+kept                 n= 1453 PF=1.749 avgR=+0.3450 netR=+501.3
+removed              n=  832 PF=0.325 avgR=-0.5523 netR=-459.6
+random removal: avgR mean +0.0197 p95 +0.0577 | share of random >= oracle: 0.000
+-- round-trip cost 0.30 USD/oz
+all trades           n= 2285 PF=0.918 avgR=-0.0518 netR=-118.3
+kept                 n= 1453 PF=1.565 avgR=+0.2773 netR=+402.9
+removed              n=  832 PF=0.286 avgR=-0.6264 netR=-521.2
+random removal: avgR mean -0.0516 p95 -0.0189 | share of random >= oracle: 0.000
+
+===== 2021-2026 15m rr1.5 | label=trendagree | removed days 49.2%
+share of trades removed: 33.6% (total=756)
+-- round-trip cost 0.00 USD/oz
+all trades           n=  756 PF=1.114 avgR=+0.0647 netR=+48.9
+kept                 n=  502 PF=1.888 avgR=+0.3879 netR=+194.7
+removed              n=  254 PF=0.307 avgR=-0.5740 netR=-145.8
+random removal: avgR mean +0.0646 p95 +0.1188 | share of random >= oracle: 0.000
+-- round-trip cost 0.30 USD/oz
+all trades           n=  756 PF=1.047 avgR=+0.0275 netR=+20.8
+kept                 n=  502 PF=1.778 avgR=+0.3526 netR=+177.0
+removed              n=  254 PF=0.287 avgR=-0.6149 netR=-156.2
+random removal: avgR mean +0.0275 p95 +0.0842 | share of random >= oracle: 0.000

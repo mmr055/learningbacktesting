@@ -1,0 +1,56 @@
+
+===== 2005-2020 rr1.0 | choppy = bottom 33% of days by |C-O|/(H-L) (threshold 0.305)
+share of trades entered on choppy days: 33.4%
+-- round-trip cost 0.00 USD/oz
+all trades           n= 2638 PF=1.012 avgR=+0.0061 netR=+16.0
+kept (non-choppy)    n= 1758 PF=1.192 avgR=+0.0871 netR=+153.2
+removed (choppy)     n=  880 PF=0.730 avgR=-0.1559 netR=-137.2
+random removal of same # of days: avgR mean +0.0059 p95 +0.0289 | share of random >= oracle: 0.000
+-- round-trip cost 0.30 USD/oz
+all trades           n= 2638 PF=0.879 avgR=-0.0642 netR=-169.2
+kept (non-choppy)    n= 1758 PF=1.036 avgR=+0.0176 netR=+30.9
+removed (choppy)     n=  880 PF=0.632 avgR=-0.2274 netR=-200.1
+random removal of same # of days: avgR mean -0.0646 p95 -0.0419 | share of random >= oracle: 0.000
+kept trades: years with positive netR 9 of 16
+
+===== 2005-2020 rr1.5 | choppy = bottom 33% of days by |C-O|/(H-L) (threshold 0.305)
+share of trades entered on choppy days: 33.3%
+-- round-trip cost 0.00 USD/oz
+all trades           n= 2285 PF=1.031 avgR=+0.0183 netR=+41.7
+kept (non-choppy)    n= 1524 PF=1.253 avgR=+0.1374 netR=+209.4
+removed (choppy)     n=  761 PF=0.679 avgR=-0.2203 netR=-167.7
+random removal of same # of days: avgR mean +0.0170 p95 +0.0473 | share of random >= oracle: 0.000
+-- round-trip cost 0.30 USD/oz
+all trades           n= 2285 PF=0.918 avgR=-0.0518 netR=-118.3
+kept (non-choppy)    n= 1524 PF=1.117 avgR=+0.0679 netR=+103.5
+removed (choppy)     n=  761 PF=0.603 avgR=-0.2914 netR=-221.7
+random removal of same # of days: avgR mean -0.0517 p95 -0.0198 | share of random >= oracle: 0.000
+kept trades: years with positive netR 11 of 16
+
+===== 2021-2026 rr1.0 | choppy = bottom 33% of days by |C-O|/(H-L) (threshold 0.308)
+share of trades entered on choppy days: 33.4%
+-- round-trip cost 0.00 USD/oz
+all trades           n=  870 PF=1.003 avgR=+0.0015 netR=+1.3
+kept (non-choppy)    n=  579 PF=1.203 avgR=+0.0916 netR=+53.0
+removed (choppy)     n=  291 PF=0.697 avgR=-0.1778 netR=-51.7
+random removal of same # of days: avgR mean +0.0023 p95 +0.0426 | share of random >= oracle: 0.000
+-- round-trip cost 0.30 USD/oz
+all trades           n=  870 PF=0.933 avgR=-0.0345 netR=-30.0
+kept (non-choppy)    n=  579 PF=1.120 avgR=+0.0562 netR=+32.5
+removed (choppy)     n=  291 PF=0.647 avgR=-0.2150 netR=-62.6
+random removal of same # of days: avgR mean -0.0328 p95 +0.0064 | share of random >= oracle: 0.000
+kept trades: years with positive netR 5 of 6
+
+===== 2021-2026 rr1.5 | choppy = bottom 33% of days by |C-O|/(H-L) (threshold 0.308)
+share of trades entered on choppy days: 33.9%
+-- round-trip cost 0.00 USD/oz
+all trades           n=  756 PF=1.114 avgR=+0.0647 netR=+48.9
+kept (non-choppy)    n=  500 PF=1.388 avgR=+0.1994 netR=+99.7
+removed (choppy)     n=  256 PF=0.706 avgR=-0.1984 netR=-50.8
+random removal of same # of days: avgR mean +0.0634 p95 +0.1156 | share of random >= oracle: 0.000
+-- round-trip cost 0.30 USD/oz
+all trades           n=  756 PF=1.047 avgR=+0.0275 netR=+20.8
+kept (non-choppy)    n=  500 PF=1.303 avgR=+0.1622 netR=+81.1
+removed (choppy)     n=  256 PF=0.663 avgR=-0.2355 netR=-60.3
+random removal of same # of days: avgR mean +0.0292 p95 +0.0891 | share of random >= oracle: 0.000
+kept trades: years with positive netR 4 of 6
