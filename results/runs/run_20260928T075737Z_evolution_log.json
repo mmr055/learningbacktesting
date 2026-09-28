@@ -1,0 +1,592 @@
+[
+  {
+    "generation": 0,
+    "best_fitness": 0.30612116361647684,
+    "avg_fitness": 0.1077961953821838,
+    "best_genome": {
+      "direction": "short",
+      "entry_block": "opening_range",
+      "entry_params": {
+        "session_start_hour": 9,
+        "duration_min": 60
+      },
+      "use_volume_filter": false,
+      "volume_params": {
+        "window": 20,
+        "z_threshold": 2.16
+      },
+      "use_mtf_filter": false,
+      "mtf_params": {
+        "htf": "1h",
+        "mode": "trend_bias",
+        "width": 2
+      },
+      "stop_atr_mult": 1.09,
+      "tp_r_multiple": 2.26,
+      "risk_pct": 1.13,
+      "max_bars_in_trade": 100
+    },
+    "best_report": {
+      "fitness": 0.30612116361647684,
+      "mean_window_fitness": 0.3199136227962555,
+      "cross_window_dispersion": 0.012933921718515907,
+      "cross_window_penalty": 0.04311307239505303,
+      "n_windows": 3,
+      "n_trades_total": 6401,
+      "window_reports": [
+        {
+          "fitness": 0.33672561377916604,
+          "profit_factor": 1.0243182509011197,
+          "win_rate_stability": 0.986194320416354,
+          "complexity_penalty": 0.0,
+          "n_trades": 2133
+        },
+        {
+          "fitness": 0.3177483977639622,
+          "profit_factor": 1.0114829359880897,
+          "win_rate_stability": 0.9424234056511173,
+          "complexity_penalty": 0.0,
+          "n_trades": 2286
+        },
+        {
+          "fitness": 0.30526685684563837,
+          "profit_factor": 0.9575428868646579,
+          "win_rate_stability": 0.9564068441211837,
+          "complexity_penalty": 0.0,
+          "n_trades": 1982
+        }
+      ]
+    }
+  },
+  {
+    "generation": 1,
+    "best_fitness": 0.31648675380035735,
+    "avg_fitness": 0.1803998419788327,
+    "best_genome": {
+      "direction": "long",
+      "entry_block": "opening_range",
+      "entry_params": {
+        "session_start_hour": 7,
+        "duration_min": 60
+      },
+      "use_volume_filter": false,
+      "volume_params": {
+        "window": 100,
+        "z_threshold": 1.2
+      },
+      "use_mtf_filter": false,
+      "mtf_params": {
+        "htf": "1D",
+        "mode": "trend_bias",
+        "width": 3
+      },
+      "stop_atr_mult": 2.6,
+      "tp_r_multiple": 2.69,
+      "risk_pct": 1.82,
+      "max_bars_in_trade": 200
+    },
+    "best_report": {
+      "fitness": 0.31648675380035735,
+      "mean_window_fitness": 0.3306481090012297,
+      "cross_window_dispersion": 0.012848724806243788,
+      "cross_window_penalty": 0.04282908268747929,
+      "n_windows": 3,
+      "n_trades_total": 3575,
+      "window_reports": [
+        {
+          "fitness": 0.32546163326884214,
+          "profit_factor": 0.997133008299788,
+          "win_rate_stability": 0.979192235819533,
+          "complexity_penalty": 0.0,
+          "n_trades": 1082
+        },
+        {
+          "fitness": 0.3483231221550974,
+          "profit_factor": 1.0667451189994315,
+          "win_rate_stability": 0.9795867333758563,
+          "complexity_penalty": 0.0,
+          "n_trades": 1187
+        },
+        {
+          "fitness": 0.3181595715797495,
+          "profit_factor": 1.021853008649335,
+          "win_rate_stability": 0.9340665503357078,
+          "complexity_penalty": 0.0,
+          "n_trades": 1306
+        }
+      ]
+    }
+  },
+  {
+    "generation": 2,
+    "best_fitness": 0.31648675380035735,
+    "avg_fitness": 0.24633734915558958,
+    "best_genome": {
+      "direction": "long",
+      "entry_block": "opening_range",
+      "entry_params": {
+        "session_start_hour": 7,
+        "duration_min": 60
+      },
+      "use_volume_filter": false,
+      "volume_params": {
+        "window": 100,
+        "z_threshold": 1.2
+      },
+      "use_mtf_filter": false,
+      "mtf_params": {
+        "htf": "1D",
+        "mode": "trend_bias",
+        "width": 3
+      },
+      "stop_atr_mult": 2.6,
+      "tp_r_multiple": 2.69,
+      "risk_pct": 1.82,
+      "max_bars_in_trade": 200
+    },
+    "best_report": {
+      "fitness": 0.31648675380035735,
+      "mean_window_fitness": 0.3306481090012297,
+      "cross_window_dispersion": 0.012848724806243788,
+      "cross_window_penalty": 0.04282908268747929,
+      "n_windows": 3,
+      "n_trades_total": 3575,
+      "window_reports": [
+        {
+          "fitness": 0.32546163326884214,
+          "profit_factor": 0.997133008299788,
+          "win_rate_stability": 0.979192235819533,
+          "complexity_penalty": 0.0,
+          "n_trades": 1082
+        },
+        {
+          "fitness": 0.3483231221550974,
+          "profit_factor": 1.0667451189994315,
+          "win_rate_stability": 0.9795867333758563,
+          "complexity_penalty": 0.0,
+          "n_trades": 1187
+        },
+        {
+          "fitness": 0.3181595715797495,
+          "profit_factor": 1.021853008649335,
+          "win_rate_stability": 0.9340665503357078,
+          "complexity_penalty": 0.0,
+          "n_trades": 1306
+        }
+      ]
+    }
+  },
+  {
+    "generation": 3,
+    "best_fitness": 0.31648675380035735,
+    "avg_fitness": 0.1638427803656879,
+    "best_genome": {
+      "direction": "long",
+      "entry_block": "opening_range",
+      "entry_params": {
+        "session_start_hour": 7,
+        "duration_min": 60
+      },
+      "use_volume_filter": false,
+      "volume_params": {
+        "window": 100,
+        "z_threshold": 1.2
+      },
+      "use_mtf_filter": false,
+      "mtf_params": {
+        "htf": "1D",
+        "mode": "trend_bias",
+        "width": 3
+      },
+      "stop_atr_mult": 2.6,
+      "tp_r_multiple": 2.69,
+      "risk_pct": 1.82,
+      "max_bars_in_trade": 200
+    },
+    "best_report": {
+      "fitness": 0.31648675380035735,
+      "mean_window_fitness": 0.3306481090012297,
+      "cross_window_dispersion": 0.012848724806243788,
+      "cross_window_penalty": 0.04282908268747929,
+      "n_windows": 3,
+      "n_trades_total": 3575,
+      "window_reports": [
+        {
+          "fitness": 0.32546163326884214,
+          "profit_factor": 0.997133008299788,
+          "win_rate_stability": 0.979192235819533,
+          "complexity_penalty": 0.0,
+          "n_trades": 1082
+        },
+        {
+          "fitness": 0.3483231221550974,
+          "profit_factor": 1.0667451189994315,
+          "win_rate_stability": 0.9795867333758563,
+          "complexity_penalty": 0.0,
+          "n_trades": 1187
+        },
+        {
+          "fitness": 0.3181595715797495,
+          "profit_factor": 1.021853008649335,
+          "win_rate_stability": 0.9340665503357078,
+          "complexity_penalty": 0.0,
+          "n_trades": 1306
+        }
+      ]
+    }
+  },
+  {
+    "generation": 4,
+    "best_fitness": 0.31648675380035735,
+    "avg_fitness": 0.20130673545134678,
+    "best_genome": {
+      "direction": "long",
+      "entry_block": "opening_range",
+      "entry_params": {
+        "session_start_hour": 7,
+        "duration_min": 60
+      },
+      "use_volume_filter": false,
+      "volume_params": {
+        "window": 100,
+        "z_threshold": 1.2
+      },
+      "use_mtf_filter": false,
+      "mtf_params": {
+        "htf": "1D",
+        "mode": "trend_bias",
+        "width": 3
+      },
+      "stop_atr_mult": 2.6,
+      "tp_r_multiple": 2.69,
+      "risk_pct": 1.82,
+      "max_bars_in_trade": 200
+    },
+    "best_report": {
+      "fitness": 0.31648675380035735,
+      "mean_window_fitness": 0.3306481090012297,
+      "cross_window_dispersion": 0.012848724806243788,
+      "cross_window_penalty": 0.04282908268747929,
+      "n_windows": 3,
+      "n_trades_total": 3575,
+      "window_reports": [
+        {
+          "fitness": 0.32546163326884214,
+          "profit_factor": 0.997133008299788,
+          "win_rate_stability": 0.979192235819533,
+          "complexity_penalty": 0.0,
+          "n_trades": 1082
+        },
+        {
+          "fitness": 0.3483231221550974,
+          "profit_factor": 1.0667451189994315,
+          "win_rate_stability": 0.9795867333758563,
+          "complexity_penalty": 0.0,
+          "n_trades": 1187
+        },
+        {
+          "fitness": 0.3181595715797495,
+          "profit_factor": 1.021853008649335,
+          "win_rate_stability": 0.9340665503357078,
+          "complexity_penalty": 0.0,
+          "n_trades": 1306
+        }
+      ]
+    }
+  },
+  {
+    "generation": 5,
+    "best_fitness": 0.31648675380035735,
+    "avg_fitness": 0.2362746143069056,
+    "best_genome": {
+      "direction": "long",
+      "entry_block": "opening_range",
+      "entry_params": {
+        "session_start_hour": 7,
+        "duration_min": 60
+      },
+      "use_volume_filter": false,
+      "volume_params": {
+        "window": 100,
+        "z_threshold": 1.2
+      },
+      "use_mtf_filter": false,
+      "mtf_params": {
+        "htf": "1D",
+        "mode": "trend_bias",
+        "width": 3
+      },
+      "stop_atr_mult": 2.6,
+      "tp_r_multiple": 2.69,
+      "risk_pct": 1.82,
+      "max_bars_in_trade": 200
+    },
+    "best_report": {
+      "fitness": 0.31648675380035735,
+      "mean_window_fitness": 0.3306481090012297,
+      "cross_window_dispersion": 0.012848724806243788,
+      "cross_window_penalty": 0.04282908268747929,
+      "n_windows": 3,
+      "n_trades_total": 3575,
+      "window_reports": [
+        {
+          "fitness": 0.32546163326884214,
+          "profit_factor": 0.997133008299788,
+          "win_rate_stability": 0.979192235819533,
+          "complexity_penalty": 0.0,
+          "n_trades": 1082
+        },
+        {
+          "fitness": 0.3483231221550974,
+          "profit_factor": 1.0667451189994315,
+          "win_rate_stability": 0.9795867333758563,
+          "complexity_penalty": 0.0,
+          "n_trades": 1187
+        },
+        {
+          "fitness": 0.3181595715797495,
+          "profit_factor": 1.021853008649335,
+          "win_rate_stability": 0.9340665503357078,
+          "complexity_penalty": 0.0,
+          "n_trades": 1306
+        }
+      ]
+    }
+  },
+  {
+    "generation": 6,
+    "best_fitness": 0.31672289353658245,
+    "avg_fitness": 0.18915766329708192,
+    "best_genome": {
+      "direction": "long",
+      "entry_block": "opening_range",
+      "entry_params": {
+        "session_start_hour": 7,
+        "duration_min": 60
+      },
+      "use_volume_filter": false,
+      "volume_params": {
+        "window": 50,
+        "z_threshold": 1.63
+      },
+      "use_mtf_filter": false,
+      "mtf_params": {
+        "htf": "1D",
+        "mode": "trend_bias",
+        "width": 3
+      },
+      "stop_atr_mult": 2.6,
+      "tp_r_multiple": 2.75,
+      "risk_pct": 1.82,
+      "max_bars_in_trade": 400
+    },
+    "best_report": {
+      "fitness": 0.31672289353658245,
+      "mean_window_fitness": 0.32721736355450265,
+      "cross_window_dispersion": 0.009621558499146268,
+      "cross_window_penalty": 0.032071861663820894,
+      "n_windows": 3,
+      "n_trades_total": 3490,
+      "window_reports": [
+        {
+          "fitness": 0.32281011882583177,
+          "profit_factor": 1.0094286142716145,
+          "win_rate_stability": 0.9593846883132963,
+          "complexity_penalty": 0.0,
+          "n_trades": 1058
+        },
+        {
+          "fitness": 0.3405696955910353,
+          "profit_factor": 1.0477840171327693,
+          "win_rate_stability": 0.9751142125349299,
+          "complexity_penalty": 0.0,
+          "n_trades": 1160
+        },
+        {
+          "fitness": 0.31827227624664095,
+          "profit_factor": 1.032484209285443,
+          "win_rate_stability": 0.9247762049559365,
+          "complexity_penalty": 0.0,
+          "n_trades": 1272
+        }
+      ]
+    }
+  },
+  {
+    "generation": 7,
+    "best_fitness": 0.31672289353658245,
+    "avg_fitness": 0.1898104211868603,
+    "best_genome": {
+      "direction": "long",
+      "entry_block": "opening_range",
+      "entry_params": {
+        "session_start_hour": 7,
+        "duration_min": 60
+      },
+      "use_volume_filter": false,
+      "volume_params": {
+        "window": 50,
+        "z_threshold": 1.63
+      },
+      "use_mtf_filter": false,
+      "mtf_params": {
+        "htf": "1D",
+        "mode": "trend_bias",
+        "width": 3
+      },
+      "stop_atr_mult": 2.6,
+      "tp_r_multiple": 2.75,
+      "risk_pct": 1.82,
+      "max_bars_in_trade": 400
+    },
+    "best_report": {
+      "fitness": 0.31672289353658245,
+      "mean_window_fitness": 0.32721736355450265,
+      "cross_window_dispersion": 0.009621558499146268,
+      "cross_window_penalty": 0.032071861663820894,
+      "n_windows": 3,
+      "n_trades_total": 3490,
+      "window_reports": [
+        {
+          "fitness": 0.32281011882583177,
+          "profit_factor": 1.0094286142716145,
+          "win_rate_stability": 0.9593846883132963,
+          "complexity_penalty": 0.0,
+          "n_trades": 1058
+        },
+        {
+          "fitness": 0.3405696955910353,
+          "profit_factor": 1.0477840171327693,
+          "win_rate_stability": 0.9751142125349299,
+          "complexity_penalty": 0.0,
+          "n_trades": 1160
+        },
+        {
+          "fitness": 0.31827227624664095,
+          "profit_factor": 1.032484209285443,
+          "win_rate_stability": 0.9247762049559365,
+          "complexity_penalty": 0.0,
+          "n_trades": 1272
+        }
+      ]
+    }
+  },
+  {
+    "generation": 8,
+    "best_fitness": 0.3179001404579951,
+    "avg_fitness": 0.20838946519529894,
+    "best_genome": {
+      "direction": "long",
+      "entry_block": "opening_range",
+      "entry_params": {
+        "session_start_hour": 7,
+        "duration_min": 60
+      },
+      "use_volume_filter": false,
+      "volume_params": {
+        "window": 50,
+        "z_threshold": 1.63
+      },
+      "use_mtf_filter": false,
+      "mtf_params": {
+        "htf": "1D",
+        "mode": "trend_bias",
+        "width": 3
+      },
+      "stop_atr_mult": 2.57,
+      "tp_r_multiple": 2.75,
+      "risk_pct": 1.82,
+      "max_bars_in_trade": 400
+    },
+    "best_report": {
+      "fitness": 0.3179001404579951,
+      "mean_window_fitness": 0.3305691558763757,
+      "cross_window_dispersion": 0.011497456910152732,
+      "cross_window_penalty": 0.03832485636717577,
+      "n_windows": 3,
+      "n_trades_total": 3528,
+      "window_reports": [
+        {
+          "fitness": 0.32576353676275516,
+          "profit_factor": 1.011914790814867,
+          "win_rate_stability": 0.9657835018907872,
+          "complexity_penalty": 0.0,
+          "n_trades": 1075
+        },
+        {
+          "fitness": 0.3464243552506991,
+          "profit_factor": 1.0594776779769823,
+          "win_rate_stability": 0.9809296480285788,
+          "complexity_penalty": 0.0,
+          "n_trades": 1169
+        },
+        {
+          "fitness": 0.31951957561567274,
+          "profit_factor": 1.0313962428375447,
+          "win_rate_stability": 0.9293796962163269,
+          "complexity_penalty": 0.0,
+          "n_trades": 1284
+        }
+      ]
+    }
+  },
+  {
+    "generation": 9,
+    "best_fitness": 0.3179001404579951,
+    "avg_fitness": 0.18925495137072013,
+    "best_genome": {
+      "direction": "long",
+      "entry_block": "opening_range",
+      "entry_params": {
+        "session_start_hour": 7,
+        "duration_min": 60
+      },
+      "use_volume_filter": false,
+      "volume_params": {
+        "window": 50,
+        "z_threshold": 1.63
+      },
+      "use_mtf_filter": false,
+      "mtf_params": {
+        "htf": "1D",
+        "mode": "trend_bias",
+        "width": 3
+      },
+      "stop_atr_mult": 2.57,
+      "tp_r_multiple": 2.75,
+      "risk_pct": 1.82,
+      "max_bars_in_trade": 400
+    },
+    "best_report": {
+      "fitness": 0.3179001404579951,
+      "mean_window_fitness": 0.3305691558763757,
+      "cross_window_dispersion": 0.011497456910152732,
+      "cross_window_penalty": 0.03832485636717577,
+      "n_windows": 3,
+      "n_trades_total": 3528,
+      "window_reports": [
+        {
+          "fitness": 0.32576353676275516,
+          "profit_factor": 1.011914790814867,
+          "win_rate_stability": 0.9657835018907872,
+          "complexity_penalty": 0.0,
+          "n_trades": 1075
+        },
+        {
+          "fitness": 0.3464243552506991,
+          "profit_factor": 1.0594776779769823,
+          "win_rate_stability": 0.9809296480285788,
+          "complexity_penalty": 0.0,
+          "n_trades": 1169
+        },
+        {
+          "fitness": 0.31951957561567274,
+          "profit_factor": 1.0313962428375447,
+          "win_rate_stability": 0.9293796962163269,
+          "complexity_penalty": 0.0,
+          "n_trades": 1284
+        }
+      ]
+    }
+  }
+]
